@@ -1,0 +1,67 @@
+h1,
+h2 {
+  font-weight: normal;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+a {
+  color: #42b983;
+}
+
+
+.orderTitle {
+  /*border-bottom: 2px #409eff solid;*/
+  font-size: 24px;
+  padding: 10px;
+}
+
+.sRow {
+  margin: 20px;
+}
+.sLbl {
+  margin: 10px;
+  width: 100px;
+  text-align: right;
+  vertical-align: center;
+}
+.sInp {
+  width: 260px;
+  vertical-align: center;
+}
+.sInf {
+  color: red;
+  width: 150px;
+  margin: 10px 2px;
+  font-style: italic;
+  font-size: 14px;
+  text-align: left;
+  vertical-align: center;
+}
+.sTag {
+  margin-top: 8px;
+  margin-left: 10px;
+  font-size: 14px;
+  text-align: left;
+  vertical-align: center;
+}
+.sBtn {
+  width: 260px;
+}
+.sBtnSuc {
+  background-color: #750000;
+  color: white;
+}
+
+.innerDialog {
+  background-color: rgba(123,115,64,0);
+  height: 300px;
+  width: 600px;
+  padding-left: 100px;
+  padding-top: 200px;
+}
