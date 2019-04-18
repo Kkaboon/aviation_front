@@ -49,7 +49,7 @@ body {
 
 }
 .head_left {
-  width: 500px;
+  width: 800px;
   float: left;
   display: block;
 }

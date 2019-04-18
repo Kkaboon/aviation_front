@@ -96,6 +96,7 @@
               sessionStorage.setItem("pname", response.data['name']);
               console.log('用户姓名：' + sessionStorage.getItem("pname"));
               sessionStorage.setItem("login_state", 'true');
+              sessionStorage.setItem("airlineno",response.data['airlineno'])
               console.log('跳转页面中');
               //this.reload();
               this.$router.push({path: '/Index'});

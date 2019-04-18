@@ -29,6 +29,7 @@
         <el-menu-item index="4-1">信息修改</el-menu-item>
         <el-menu-item index="4-2">订单记录</el-menu-item>
       </el-submenu>
+      <el-menu-item index="5">航班管理</el-menu-item>
     </el-menu>
   </div>
 
@@ -78,6 +79,9 @@
             break;
           case '4-2':
             this.$router.push({path:'/User/PersonalOrder'});
+            break;
+          case '5':
+            this.$router.push({path: '/FlightCRUD/Flights'});
             break;
           default:
             if (key.length === 3 && key.substr(0, 2) === '2-')

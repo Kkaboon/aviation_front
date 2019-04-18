@@ -253,7 +253,8 @@
             telephone: this.userInfo.telInfo,
             address: this.userInfo.address,
             password: this.userInfo.password,
-            ad: false
+            ad: false,
+            airlineno:0
           };
 
           console.log(data);

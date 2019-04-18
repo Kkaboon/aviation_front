@@ -19,6 +19,8 @@ import  PersonalOrder from '../components/User/PersonalOrder'
 import  UserQuery from '../components/BackStage/UserQuery'
 import  AllUsers from '../components/BackStage/AllUsers'
 
+import Flights from '../components/FlightCRUD/Flights'
+
 Vue.use(Router)
 
 export default new Router({
@@ -38,7 +40,11 @@ export default new Router({
           name: 'Index',
           component: Index
         },
-
+        {
+          path: '/FlightCRUD/flights',
+          name:'Flights',
+          component: Flights
+        },
         {
           path: '/account/login',
           name: 'login',
